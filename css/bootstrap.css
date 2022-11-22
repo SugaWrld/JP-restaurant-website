@@ -5758,6 +5758,10 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+  .map #map_container{
+    margin: auto;
+    width: 280px;
+  }
   .hidden-xs {
     display: none !important;
   }
