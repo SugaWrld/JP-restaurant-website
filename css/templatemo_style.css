@@ -818,6 +818,7 @@ textarea {
     width: 110%;
   }
   .map #map_container{
+    margin-top: 1em;
     width: 110%;
     height: 50vh;
   }
