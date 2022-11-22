@@ -13,13 +13,8 @@ html {
 body {
   margin: 0;
 }
-.map{
-  display: block;
-  margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  width: 40%;
-}
+
+
 article,
 aside,
 details,
@@ -3125,6 +3120,7 @@ input[type="button"].btn-block {
   bottom: 100%;
   margin-bottom: 1px;
 }
+
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
@@ -5188,13 +5184,7 @@ button.close {
     margin:auto;
     width: 30%;
   }
-  .map{
-    display: block;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
+  
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -5759,11 +5749,13 @@ button.close {
 }
 
 @media (max-width: 767px) {
+  /*
   .map #map_container{
     margin: auto;
     width: 40vh;
     height: 40vh;
   }
+  */
   .hidden-xs {
     display: none !important;
   }

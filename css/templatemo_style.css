@@ -798,11 +798,30 @@ textarea {
 /*-- End Side Bar --*/
 
 
-
+@media (min-width: 460px){
+  .map{
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
 
 
 /*-- Slider --*/
 
+@media (max-width: 450px) {
+  #slider{
+    margin-left: 0;
+    margin-right: 0;
+    width: 110%;
+  }
+  .map #map_container{
+    width: 110%;
+    height: 50vh;
+  }
+}
 #slider {
   overflow: hidden;
 }
