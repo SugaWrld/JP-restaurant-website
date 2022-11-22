@@ -17,7 +17,7 @@ body {
   display: block;
   margin-top: 1em;
   margin-left: 1em;
-  margin-right: auto;
+  margin-right: 1em;
   width: 40%;
 }
 article,
@@ -5757,10 +5757,12 @@ button.close {
     display: table-cell !important;
   }
 }
+
 @media (max-width: 767px) {
   .map #map_container{
     margin: auto;
-    width: 280px;
+    width: 40vh;
+    height: 40vh;
   }
   .hidden-xs {
     display: none !important;
